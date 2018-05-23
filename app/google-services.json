@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1096411003508",
+    "firebase_url": "https://shoppingapp-42d8e.firebaseio.com",
+    "project_id": "shoppingapp-42d8e",
+    "storage_bucket": "shoppingapp-42d8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096411003508:android:4f846a259b0f7cab",
+        "android_client_info": {
+          "package_name": "com.example.barry.zinishoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096411003508-9osthhqmo15b2m1l8rk1rmugahgj6r8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barry.zinishoppingapp",
+            "certificate_hash": "3d98eb1c2de5976d4f8de7cd91eaf539db9907e5"
+          }
+        },
+        {
+          "client_id": "1096411003508-k1hgrjnd3ts6eord31m8uug7jjb019it.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo5jQNsLXCd7YYABNUMsHTcJOGLcJHdXc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096411003508-k1hgrjnd3ts6eord31m8uug7jjb019it.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
