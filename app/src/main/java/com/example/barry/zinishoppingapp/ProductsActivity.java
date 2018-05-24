@@ -65,6 +65,10 @@ public class ProductsActivity extends AppCompatActivity {
 
                                 Product p = doc.toObject(Product.class);
 
+                                /// UUUUUUUUU vid 3 Update Product: set the product id UUUUUUUUUU
+                                p.setId(doc.getId());
+                                /// UUUUUUUUU End UUUUUUUUUUUUU
+
                                 // then add the product to the product list
                                 productList.add(p);
                             }

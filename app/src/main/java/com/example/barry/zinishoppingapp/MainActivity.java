@@ -47,6 +47,12 @@ import com.google.firebase.firestore.FirebaseFirestore;
  * > Add Index Manually > name Collection = products > OrderBy "Add Field"
  * > Create Index
  * -----------------------------------------------------------------------
+ *
+ * Video 3 Update product
+ * https://youtu.be/VHLj-ndsZnY
+ *
+ * 1. Create the UpdateProductActivity with UI
+ *
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -84,7 +90,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     // validate the inputs
-    private boolean hasValidationErrors(String name, String brand, String desc, String price, String qty) {
+    private boolean hasValidationErrors(String name,
+                                        String brand,
+                                        String desc,
+                                        String price,
+                                        String qty) {
 
         if (name.isEmpty()) {
             editTextName.setError("Name required");
